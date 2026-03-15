@@ -1,0 +1,134 @@
+{
+    "name": "VRInputActions",
+    "maps": [
+        {
+            "name": "Player",
+            "id": "4499561b-e1ca-4896-92c5-604c5fd8699c",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "ab4503b9-8e96-410c-9083-ac56ef10c983",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Turn",
+                    "type": "Value",
+                    "id": "4c49c844-71e8-4f89-88ac-e065ce22aa5a",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "Teleport",
+                    "type": "Button",
+                    "id": "38147ec6-08c6-4add-8f09-4ed6fa296a47",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Jump",
+                    "type": "Button",
+                    "id": "a8a5120a-f424-4746-b13e-1d8fa29d3e0b",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightHandPush",
+                    "type": "Button",
+                    "id": "d55e7ad8-4ffa-4a44-ba1a-8595d10fc97d",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "RightJoystick",
+                    "type": "Value",
+                    "id": "75c1331d-037d-4940-8bc5-adaf384c8efa",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "3cfd1ecc-2660-4028-869d-02949c78fded",
+                    "path": "<XRController>{LeftHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "437a0040-7c40-40cc-90db-4d98b5b7d162",
+                    "path": "<XRController>{RightHand}/thumbstick",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Turn",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "d404fcb1-98a3-4b86-a8fb-0114473bd78b",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Teleport",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "a9f1da7c-351e-4ad2-aaef-f38768124da6",
+                    "path": "<XRController>{RightHand}/primaryButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Jump",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "b475fca8-306d-491e-b7ca-9bdf04ce674c",
+                    "path": "<XRController>{RightHand}/triggerPressed",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightHandPush",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "be99eb51-a346-4880-aead-806fab943b13",
+                    "path": "<XRController>{RightHand}/{Primary2DAxis}",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "RightJoystick",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}
